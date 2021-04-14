@@ -11,7 +11,7 @@ Link: https://www.reddit.com/r/CryptoCurrency/top/.json?f=flair_name%3A%22TRADIN
 
 ### Kaggle criptocurrencies data
 
-https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
+Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
 
 
 # TRANSFORMATION
