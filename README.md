@@ -17,6 +17,8 @@ Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
 
 - This data will be downloaded in CSV format before ultimately being loaded into the database. 
 
+
+
 ## TRANSFORMATION
 
 (Info cleaning about cleaning up data sets... 
