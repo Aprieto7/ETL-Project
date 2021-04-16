@@ -11,7 +11,7 @@ Link: https://www.reddit.com/r/CryptoCurrency/top/.json?f=flair_name%3A%22TRADIN
 
 - This data will be scraped from the Reddit website, and pulled into Jupyter Notebooks in .json formats to ultimately be cleaned up. 
 
-### Kaggle criptocurrencies data
+### Kaggle "Criptocurrencies" 
 
 Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
 
@@ -21,7 +21,13 @@ Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
 
 ## TRANSFORMATION
 
-(Info cleaning about cleaning up data sets... 
+### r/CryptoCurrency
+- Using some webscraping, we are able to pull in data from the Reddit website. 
+- Reddit provides many columns indicating whether the post was liked, flared, etc. which leads to many 'N/A' values. We were able to drop 40 columns quickly using `drop.na()` function.
+- There is an `over_18` column that you can filter to just rows set as `False` in order to exclude posts with explicit language.
+### Kaggle "Criptocurrencies" 
+
+
 
 ## LOAD
 
