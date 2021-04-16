@@ -22,7 +22,7 @@ Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
 ## TRANSFORMATION
 
 ### r/CryptoCurrency
-- Using some webscraping, we are able to pull in data from the Reddit website. 
+
 - Reddit provides many columns indicating whether the post was liked, flared, etc. which leads to many 'N/A' values. We were able to drop 40 columns quickly using `drop.na()` function.
 - There is an `over_18` column that you can filter to just rows set as `False` in order to exclude posts with explicit language.
 - We ended up dropping 112 down to 68 just columns by removing N/As, 0s, as well as redundant and useless columns.
@@ -33,4 +33,5 @@ Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
 
 ## LOAD
 
-
+- Using SQLAlchemy, both sets of cleaned up data were pushed in SQLite database (one table for each set of data). 
+- 
