@@ -25,8 +25,10 @@ Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
 - Using some webscraping, we are able to pull in data from the Reddit website. 
 - Reddit provides many columns indicating whether the post was liked, flared, etc. which leads to many 'N/A' values. We were able to drop 40 columns quickly using `drop.na()` function.
 - There is an `over_18` column that you can filter to just rows set as `False` in order to exclude posts with explicit language.
-### Kaggle "Criptocurrencies" 
+- We ended up dropping 112 down to 68 just columns by removing N/As, 0s, as well as redundant and useless columns.
 
+### Kaggle "Criptocurrencies" 
+- The Kaggle website is provides relatively clean data. We chose Bitcoin, Ethereum, Bitcoin Cash.
 
 
 ## LOAD
