@@ -19,7 +19,7 @@ Link: https://www.reddit.com/r/CryptoCurrency/top/.json?f=flair_name%3A%22TRADIN
 
 Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
 
-- This data will be downloaded in CSV format and pulled into Jupyter for clean up using `read_csv()` before ultimately being loaded into the database. 
+- We chose to analyze Bitcoin, Ethereum, Bitcoin Cash. This data will be downloaded in CSV format and pulled into Jupyter for clean up using `read_csv()` before ultimately being loaded into the database. 
 
 
 ## TRANSFORMATION
