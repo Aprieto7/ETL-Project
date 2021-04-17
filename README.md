@@ -45,7 +45,8 @@ Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
   5) Drop not needed columns.
   6) Set index to the crypto name.
   7) Combining all tables.
-- Sample of cleaned data: <img width="468" alt="image" src="https://user-images.githubusercontent.com/69091074/115088480-d7c27480-9ed5-11eb-8ae8-120753fda73b.png">
+- Sample of cleaned data: 
+    <img width="468" alt="image" src="https://user-images.githubusercontent.com/69091074/115088480-d7c27480-9ed5-11eb-8ae8-120753fda73b.png">
 
 
 ## LOAD
