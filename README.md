@@ -2,6 +2,7 @@
 
 
 # ETL-Project
+### Team: Adolfo Priesto, Freddy Rangel, and Lydia Jones
 
 The goal of this project is to collect the data needed to compare trends in cryptocurrency values with their popularity in media and frequency of hits in public forums. In order to do this, we will extract cryptocurrency data from Kaggle documenting daily highs, lows, and volumes traded, as well as scrape posts from the r/CryptoCurrency page on Reddit to analyze traction gained.
 
