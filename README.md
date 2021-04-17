@@ -38,7 +38,7 @@ Link: https://www.kaggle.com/gorgia/criptocurrencies?select=bitcoin_usd_gwa.csv
 ### Kaggle "Criptocurrencies" 
 - The Kaggle website provides relatively clean data. We chose to analyze Bitcoin, Ethereum, Bitcoin Cash.
 - NOTES:
-  1) Fetch the data and use .info() to look at data.
+  1) Fetch the data and use `.info()` to look at data.
   2) Look for the count of NA if any.
   3) Append needed columns for crypto currency 
   4) Iterate over the data frame row by row.
